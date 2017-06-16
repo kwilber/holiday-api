@@ -1,0 +1,7 @@
+<md-content>
+<md-list>
+<md-list-item ng-repeat="(key, value) in holidays.holidays">
+<div class="md-list-item-text" layout="column">
+<a href="#/details" data-date="{{value[0].date}}" ng-click="getDate(value[0].date)">{{value[0].name}}</a></div></md-list-item>
+</md-list>
+</md-content>
